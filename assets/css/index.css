@@ -1,0 +1,39 @@
+#fondo {
+    background-image: linear-gradient(
+    to top,
+    hsl(60, 13%, 18%),
+    hsla(60, 13%, 18%, 0.9)
+    ),
+    url(../img/vishnu-r-nair-m1WZS5ye404-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 44rem;
+    width: 25rem;
+}
+
+#descriptorSignUp, #descriptorVip, #terminosSignUp, #terminosVip {
+    font-size: 0.7em;
+}
+
+#contraseñaSignUp, #correoSignUp, #contraseñaVip, #correoVip, #nombreVip {
+    opacity: 20%;
+    color: black
+}
+
+label {
+    color: rgb(169,166,159);
+    font-size: 0.7em;
+}
+
+#contraseñaSignUp::placeholder, #correoSignUp::placeholder, #contraseñaVip::placeholder, #correoVip::placeholder, #nombreVip::placeholder {
+            color: black;
+            opacity: 1; /* Firefox */
+}
+
+
+#botonVip:hover, #botonSignUp:hover {
+    cursor:pointer;
+}
